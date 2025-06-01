@@ -5,6 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
+    "node": "18.x"
+    "dev": "nodemon bot.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -12,10 +14,4 @@
   },
   "author": "ArslanMDofficial",
   "license": "MIT"
-  "engines": {
-  "node": "18.x"
-  }
-  "scripts": {
-  "start": "node bot.js"
-}
 }
